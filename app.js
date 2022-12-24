@@ -1,0 +1,42 @@
+gsap.registerPlugin('ScrollTrigger')
+// gsap.to(".sayan-polygon",{
+//     x:-10,
+//     y:14,
+//     duration:.25,
+// })
+console.log(document.querySelector('.red-polygon').getBBox())
+const tl1 =gsap.timeline();
+
+//   tl1.to(".red-polygon",{ x:-8, y:-16, duration:.5},'stSpin')
+//     .to(".red-polygon",{x:0, y:-32, duration:.5},'stSpin+=.5')
+//     .to(".red-polygon",{ x:8, y:-16, duration:.5},'stSpin+=1')
+//     .to(".red-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+// .to(".sayan-polygon",{ x:-8, y:16, duration:.5},'stSpin')
+//    .to(".sayan-polygon",{x:-16, y:0, duration:.5},'stSpin+=.5')
+//    .to(".sayan-polygon",{ x:-8, y:-16, duration:.5},'stSpin+=1')
+//     .to(".sayan-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+// .to(".yellow-polygon",{ x:8, y:16, duration:.5},'stSpin')
+//    .to(".yellow-polygon",{x:0, y:32, duration:.5},'stSpin+=.5')
+//    .to(".yellow-polygon",{ x:-8, y:16, duration:.5},'stSpin+=1')
+//    .to(".yellow-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+// .to(".blue-polygon",{ x:8, y:-16, duration:.5},'stSpin')
+//    .to(".blue-polygon",{x:16, y:0, duration:.5},'stSpin+=.5')
+//   .to(".blue-polygon",{ x:8, y:16, duration:.5},'stSpin+=1')
+//  .to(".blue-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+
+  tl1.to(".red-polygon",{ x:-8, y:-14, duration:.5,ease:Cubic.ease},'stSpin')
+   // .to(".red-polygon",{x:0, y:-32, duration:.5},'stSpin+=.5')
+   // .to(".red-polygon",{ x:8, y:-16, duration:.5},'stSpin+=1')
+  //  .to(".red-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+.to(".sayan-polygon",{ x:-8, y:14, duration:.5,ease:Cubic.ease},'stSpin')
+  // .to(".sayan-polygon",{x:-16, y:0, duration:.5},'stSpin+=.5')
+  // .to(".sayan-polygon",{ x:-8, y:-16, duration:.5},'stSpin+=1')
+  //  .to(".sayan-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+.to(".yellow-polygon",{ x:8, y:14, duration:.5,ease:Cubic.ease},'stSpin')
+  // .to(".yellow-polygon",{x:0, y:32, duration:.5},'stSpin+=.5')
+  // .to(".yellow-polygon",{ x:-8, y:16, duration:.5},'stSpin+=1')
+ //  .to(".yellow-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
+.to(".blue-polygon",{ x:8, y:-14, duration:.5,ease:Cubic.ease},'stSpin')
+ //  .to(".blue-polygon",{x:16, y:0, duration:.5},'stSpin+=.5')
+  //.to(".blue-polygon",{ x:8, y:16, duration:.5},'stSpin+=1')
+ //.to(".blue-polygon",{x:0, y:0, duration:.5},'stSpin+=1.5')
